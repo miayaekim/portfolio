@@ -231,7 +231,13 @@ a {
 
 /*===== MEDIA QUERIES =====*/
 
-@media (min-width: 500px) {
+@media screen and (-webkit-min-device-pixel-ratio: 1),
+and (min-device-width: 500px), 
+and (max-device-width: 1600px) { } 
+@media screen and (min-resolution: 192dpi) { }
+
+@media screen and (min-width: 500px),
+and (-webkit-min-device-pixel-ratio: 1) {
 	/* PROJECT PAGES */
 	.header-image-mobile {
 		width: 100%;
@@ -258,7 +264,8 @@ a {
 	}
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) 
+and (-webkit-min-device-pixel-ratio: 1) {
 	/* PROJECT PAGES */
 	.header-image-mobile {
 		width: 100%;
@@ -285,7 +292,8 @@ a {
 	}
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px)
+and (-webkit-min-device-pixel-ratio: 1) {
 	/* PROJECT PAGES */
 	.header-image-mobile {
 		opacity: 0;
@@ -312,7 +320,8 @@ a {
 	}
 }
 
-@media (min-width: 970px) {
+@media screen and (min-width: 970px) 
+and (-webkit-min-device-pixel-ratio: 1) {
 	/* HOMEPAGE - SWITCH TO MOBILE MODE */
 	.container {
 		display: flex;
@@ -405,7 +414,8 @@ a {
 	}
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) 
+and (-webkit-min-device-pixel-ratio: 1) {
 	/* PROJECT PAGES */
 	.header-image-mobile {
 		opacity: 0;
@@ -454,7 +464,8 @@ a {
 	}
 }
 
-@media (min-width: 1300px) {
+@media screen and (min-width: 1300px) 
+and (-webkit-min-device-pixel-ratio: 1) {
 	/* HOMEPAGE */
 	.container {
 		position: relative;
