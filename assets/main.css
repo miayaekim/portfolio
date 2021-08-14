@@ -310,6 +310,10 @@ html,body {
 	.header-image-mobile {
 		opacity: 0;
 	}
+
+	.header-image-mobile-s {
+		opacity: 0;
+	}
 }
 
 /* 
@@ -339,6 +343,10 @@ html,body {
 	}
 
 	.header-image-mobile {
+		opacity: 0;
+	}
+
+	.header-image-mobile-s {
 		opacity: 0;
 	}
 }
@@ -371,6 +379,10 @@ html,body {
 
 	.header-image-mobile {
 		opacity: 1;
+	}
+
+	.header-image-mobile-s {
+		opacity: 0;
 	}
 }
 
