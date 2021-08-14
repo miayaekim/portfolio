@@ -231,53 +231,34 @@ a {
 
 /*===== MEDIA QUERIES =====*/
 
-@media (max-width: 1300px) {
-	/* HOMEPAGE */
-	.container {
-		position: relative;
-		margin: 0px;
+@media (max-width: 600px) {
+	/* PROJECT PAGES */
+	.top-project-container {
 		display: flex;
-		height: 92vh;
-	}
-
-	.theia-img {
-		position: absolute;
-		margin-right: 0%;
-		z-index: -1;
-		opacity: 0;
-	}
-
-	.theia-img-file {
-		width: 90%;
-		margin-top: 100px;
-		margin-left: 13%;
-		object-fit: cover;
-	}
-
-	.amtrak-img {
-		position: absolute;
-		margin-left: 22.25%;
-		width: 73%;
-		z-index: -1;
-		opacity: 0;
-	}
-
-	.amtrak-img-file {
-		width: 65%;
-		margin-top: 150px;
-		margin-right: 10%;
+		flex-direction: column;
+		margin: 80% auto 55px auto;
+		width: 83%;
 	}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 	/* PROJECT PAGES */
-	.header-image-tablet {
+	.header-image-mobile {
 		width: 100%;
 		z-index: -1;
 		position: absolute;
 		margin-top: -30px;
 		margin-left: -7px;
 		opacity: 1;
+	}
+
+	.header-image-tablet {
+		width: 100%;
+		z-index: -1;
+		position: absolute;
+		margin-top: -30px;
+		margin-left: -7px;
+		opacity: 0;
 	}
 
 	.header-image {
@@ -292,31 +273,10 @@ a {
 	.top-project-container {
 		display: flex;
 		flex-direction: column;
-		margin: 63% auto 55px auto;
+		margin: 85% auto 55px auto;
 		width: 83%;
 	}
-
-	.mid-project-container {
-		display: flex;
-		flex-direction: column;
-		margin: 55px auto 55px auto;
-		width: 83%;
-	}
-
-	.divider {
-		height: 1px;
-		width: 100%;
-		background-color: black;
-		opacity: 0.6;
-	}
-
-	.intro-paragraph {
-		margin: 40px 0 40px 0;
-	}
-
-	.body-paragraph {
-		margin-top: 20px;
-	}
+}
 
 @media (max-width: 970px) {
 	/* HOMEPAGE - SWITCH TO MOBILE MODE */
@@ -379,24 +339,15 @@ a {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 	/* PROJECT PAGES */
-	.header-image-mobile {
-		width: 100%;
-		z-index: -1;
-		position: absolute;
-		margin-top: -30px;
-		margin-left: -7px;
-		opacity: 1;
-	}
-
 	.header-image-tablet {
 		width: 100%;
 		z-index: -1;
 		position: absolute;
 		margin-top: -30px;
 		margin-left: -7px;
-		opacity: 0;
+		opacity: 1;
 	}
 
 	.header-image {
@@ -411,18 +362,67 @@ a {
 	.top-project-container {
 		display: flex;
 		flex-direction: column;
-		margin: 85% auto 55px auto;
+		margin: 63% auto 55px auto;
 		width: 83%;
 	}
-}
 
-@media (max-width: 600px) {
-	/* PROJECT PAGES */
-	.top-project-container {
+	.mid-project-container {
 		display: flex;
 		flex-direction: column;
-		margin: 80% auto 55px auto;
+		margin: 55px auto 55px auto;
 		width: 83%;
+	}
+
+	.divider {
+		height: 1px;
+		width: 100%;
+		background-color: black;
+		opacity: 0.6;
+	}
+
+	.intro-paragraph {
+		margin: 40px 0 40px 0;
+	}
+
+	.body-paragraph {
+		margin-top: 20px;
 	}
 }
 
+@media (max-width: 1300px) {
+	/* HOMEPAGE */
+	.container {
+		position: relative;
+		margin: 0px;
+		display: flex;
+		height: 92vh;
+	}
+
+	.theia-img {
+		position: absolute;
+		margin-right: 0%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.theia-img-file {
+		width: 90%;
+		margin-top: 100px;
+		margin-left: 13%;
+		object-fit: cover;
+	}
+
+	.amtrak-img {
+		position: absolute;
+		margin-left: 22.25%;
+		width: 73%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.amtrak-img-file {
+		width: 65%;
+		margin-top: 150px;
+		margin-right: 10%;
+	}
+}
