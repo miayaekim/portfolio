@@ -134,13 +134,13 @@ a {
 
 .theia-img-file {
 	display: block;
+	align-self: flex-start;
 	width: 100%;
 	margin-top: 2%;
 }
 
 .amtrak-img {
 	display: flex;
-	justify-content: flex-end;
 	position: absolute;
 	margin-left: 22.25%;
 	width: 73%;
@@ -150,6 +150,7 @@ a {
 
 .amtrak-img-file {
 	display: block;
+	align-self: flex-start;
 	width: 65%;
 	margin-top: -10%;
 }
@@ -205,7 +206,7 @@ a {
 }
 
 .inset-image {
-	width: 103.5%;
+	width: 101%;
 	margin-left: -8px;
 }
 
@@ -284,13 +285,13 @@ html,body {
 
 	.theia-img-file {
 		display: block;
+		align-self: flex-start;
 		width: 100%;
 		margin-top: 2%;
 	}
 
 	.amtrak-img {
 		display: flex;
-		justify-content: flex-end;
 		position: absolute;
 		margin-left: 22.25%;
 		width: 73%;
@@ -300,8 +301,15 @@ html,body {
 
 	.amtrak-img-file {
 		display: block;
+		align-self: flex-start;
 		width: 100%;
 		margin-top: -10%;
+	}
+
+	/* PROJECT PAGES */
+	.inset-image {
+		width: 101%;
+		margin-left: -8px;
 	}
 }
 
@@ -335,13 +343,13 @@ html,body {
 
 	.theia-img-file {
 		display: block;
+		align-self: flex-start;
 		width: 100%;
 		margin-top: 12%;
 	}
 
 	.amtrak-img {
 		display: flex;
-		justify-content: flex-end;
 		position: absolute;
 		margin-left: 22.25%;
 		width: 73%;
@@ -351,6 +359,7 @@ html,body {
 
 	.amtrak-img-file {
 		display: block;
+		align-self: flex-start;
 		width: 100%;
 		margin-top: 5%;
 	}
@@ -364,6 +373,11 @@ html,body {
 	.mid-project-container {
 		margin: 55px auto 55px auto;
 		width: 70%;
+	}
+
+	.inset-image {
+		width: 101.45%;
+		margin-left: -8px;
 	}
 }
 
@@ -487,6 +501,11 @@ html,body {
 	.header-image-mobile-s {
 		opacity: 0;
 	}
+
+	.inset-image {
+		width: 104%;
+		margin-left: -8px;
+	}
 }
 
 /* 
@@ -607,6 +626,11 @@ html,body {
 
 	.header-image-mobile-s {
 		opacity: 0;
+	}
+
+	.inset-image {
+		width: 104%;
+		margin-left: -8px;
 	}
 }
 
