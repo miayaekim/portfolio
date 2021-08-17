@@ -24,4 +24,19 @@ $(document).ready(function() {
 		$(".theia-img").fadeTo(250, 0);
 		$(".about").fadeTo(200, 1);
 	});
+
+	$("#magister").mouseenter(function() {
+		$("#magister").css("background-color", "#F5EBCE");
+		$("body").css("background-color", "#FFF9E9");
+		$(".magister-img").fadeTo(250, 1);
+		$(".about").fadeTo(200, 0);
+	});
+	$("#magister").mouseleave(function() {
+		$("#magister").css("background-color", "transparent");
+		$("body").css("background-color", "white");
+		$(".magister-img").fadeTo(250, 0);
+		$(".about").fadeTo(200, 1);
+	});
 });
+
+//FFF9E9

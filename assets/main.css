@@ -1,6 +1,6 @@
 body {
 	font-family: proxima-nova, sans-serif;
-	font-size: 13pt;
+	font-size: 16pt;
 	font-style: normal;
 	font-weight: 100;
 	transition: background-color 0.5s;
@@ -155,6 +155,22 @@ a {
 	margin-top: -10%;
 }
 
+.magister-img {
+	display: flex;
+	position: absolute;
+	margin-left: 22.25%;
+	width: 73%;
+	z-index: -1;
+	opacity: 0;
+}
+
+.magister-img-file {
+	display: block;
+	align-self: flex-start;
+	width: 100%;
+	margin-top: -10%;
+}
+
 
 /*===== PROJECT PAGES =====*/
 
@@ -306,6 +322,22 @@ html,body {
 		margin-top: -10%;
 	}
 
+	.magister-img {
+		display: flex;
+		position: absolute;
+		margin-left: 22.25%;
+		width: 73%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.magister-img-file {
+		display: block;
+		align-self: flex-start;
+		width: 100%;
+		margin-top: -10%;
+	}
+
 	/* PROJECT PAGES */
 	.inset-image {
 		width: 101%;
@@ -358,6 +390,22 @@ html,body {
 	}
 
 	.amtrak-img-file {
+		display: block;
+		align-self: flex-start;
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.magister-img {
+		display: flex;
+		position: absolute;
+		margin-left: 22.25%;
+		width: 73%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.magister-img-file {
 		display: block;
 		align-self: flex-start;
 		width: 100%;
@@ -467,6 +515,15 @@ html,body {
 	}
 
 	.amtrak-img-file {
+		display: none;
+	}
+
+	.magister-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.magister-img-file {
 		display: none;
 	}
   
@@ -597,6 +654,15 @@ html,body {
 		display: none;
 	}
 
+	.magister-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.magister-img-file {
+		display: none;
+	}
+
 	/* PROJECT PAGES */
 	.container {
 		flex-direction: column;
@@ -724,6 +790,15 @@ html,body {
 	.amtrak-img-file {
 		display: none;
 	}
+
+	.magister-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.magister-img-file {
+		display: none;
+	}
   
 	/* PROJECT PAGES */
 	.container {
@@ -845,6 +920,15 @@ html,body {
 	}
 
 	.amtrak-img-file {
+		display: none;
+	}
+
+	.magister-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.magister-img-file {
 		display: none;
 	}
   
@@ -975,6 +1059,15 @@ html,body {
 	}
 
 	.amtrak-img-file {
+		display: none;
+	}
+
+	.magister-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.magister-img-file {
 		display: none;
 	}
   
