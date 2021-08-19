@@ -171,6 +171,37 @@ a {
 	margin-top: -10%;
 }
 
+.pennapps-img {
+	display: flex;
+	position: absolute;
+	margin-left: 22.25%;
+	width: 73%;
+	z-index: -1;
+	opacity: 0;
+}
+
+.pennapps-img-file {
+	display: block;
+	align-self: flex-start;
+	width: 100%;
+	margin-top: -10%;
+}
+
+.dp-img {
+	display: flex;
+	position: absolute;
+	margin-left: 22.25%;
+	width: 73%;
+	z-index: -1;
+	opacity: 0;
+}
+
+.dp-img-file {
+	display: block;
+	align-self: flex-start;
+	width: 100%;
+	margin-top: -10%;
+}
 
 /*===== PROJECT PAGES =====*/
 
@@ -198,6 +229,10 @@ a {
 
 .project-title {
 	font-size: 45pt;
+}
+
+.dp-project-title {
+	font-size: 35pt;
 }
 
 .divider {
@@ -338,6 +373,38 @@ html,body {
 		margin-top: -10%;
 	}
 
+	.pennapps-img {
+		display: flex;
+		position: absolute;
+		margin-left: 22.25%;
+		width: 73%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: block;
+		align-self: flex-start;
+		width: 100%;
+		margin-top: -10%;
+	}
+
+	.dp-img {
+		display: flex;
+		position: absolute;
+		margin-left: 22.25%;
+		width: 73%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.dp-img-file {
+		display: block;
+		align-self: flex-start;
+		width: 100%;
+		margin-top: -10%;
+	}
+
 	/* PROJECT PAGES */
 	.inset-image {
 		width: 101%;
@@ -406,6 +473,38 @@ html,body {
 	}
 
 	.magister-img-file {
+		display: block;
+		align-self: flex-start;
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.pennapps-img {
+		display: flex;
+		position: absolute;
+		margin-left: 22.25%;
+		width: 73%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: block;
+		align-self: flex-start;
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.dp-img {
+		display: flex;
+		position: absolute;
+		margin-left: 22.25%;
+		width: 73%;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.dp-img-file {
 		display: block;
 		align-self: flex-start;
 		width: 100%;
@@ -524,6 +623,24 @@ html,body {
 	}
 
 	.magister-img-file {
+		display: none;
+	}
+
+	.pennapps-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: none;
+	}
+
+	.dp-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.dp-img-file {
 		display: none;
 	}
   
@@ -663,6 +780,24 @@ html,body {
 		display: none;
 	}
 
+	.pennapps-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: none;
+	}
+
+	.dp-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.dp-img-file {
+		display: none;
+	}
+
 	/* PROJECT PAGES */
 	.container {
 		flex-direction: column;
@@ -799,6 +934,24 @@ html,body {
 	.magister-img-file {
 		display: none;
 	}
+
+	.pennapps-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: none;
+	}
+
+	.dp-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.dp-img-file {
+		display: none;
+	}
   
 	/* PROJECT PAGES */
 	.container {
@@ -929,6 +1082,24 @@ html,body {
 	}
 
 	.magister-img-file {
+		display: none;
+	}
+
+	.pennapps-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: none;
+	}
+
+	.dp-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.dp-img-file {
 		display: none;
 	}
   
@@ -1068,6 +1239,24 @@ html,body {
 	}
 
 	.magister-img-file {
+		display: none;
+	}
+
+	.pennapps-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: none;
+	}
+
+	.dp-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.dp-img-file {
 		display: none;
 	}
   

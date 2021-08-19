@@ -37,6 +37,32 @@ $(document).ready(function() {
 		$(".magister-img").fadeTo(250, 0);
 		$(".about").fadeTo(200, 1);
 	});
+
+	$("#pennapps").mouseenter(function() {
+		$("#pennapps").css("background-color", "#B7EBE8");
+		$("body").css("background-color", "#CCF1EF");
+		$(".pennapps-img").fadeTo(250, 1);
+		$(".about").fadeTo(200, 0);
+	});
+	$("#pennapps").mouseleave(function() {
+		$("#pennapps").css("background-color", "transparent");
+		$("body").css("background-color", "white");
+		$(".pennapps-img").fadeTo(250, 0);
+		$(".about").fadeTo(200, 1);
+	});
+
+	$("#dp").mouseenter(function() {
+		$("#dp").css("background-color", "#F0DD00");
+		$("body").css("background-color", "#F3E433");
+		$(".dp-img").fadeTo(250, 1);
+		$(".about").fadeTo(200, 0);
+	});
+	$("#dp").mouseleave(function() {
+		$("#dp").css("background-color", "transparent");
+		$("body").css("background-color", "white");
+		$(".dp-img").fadeTo(250, 0);
+		$(".about").fadeTo(200, 1);
+	});
 });
 
 //FFF9E9
