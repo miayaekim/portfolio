@@ -528,6 +528,154 @@ html,body {
 	}
 }
 
+@media (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) {
+  
+  	/* HOMEPAGE */
+	.container {
+		display: flex;
+		flex-direction: column;
+		height: 1180px;
+	}
+
+	.container div:first-child {
+		order: 1;
+	}
+
+	.container div:last-child {
+		order: 2;
+	}
+
+	.about {
+		display: none !important;
+		opacity: 0;
+	}
+
+	.about-mobile {
+		display: block;
+		margin: 50px auto 0 auto;
+		width: 80%;
+	}
+
+	.projects {
+		width: 80%;
+		height: 725px;
+		margin: 0 auto 0 auto;
+	}
+
+	.first-card {
+		display: flex;
+		flex-direction: column;
+		height: 130px;
+		justify-content: flex-end;
+		box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		margin: 15px 0px 0px 0px;
+	}
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		height: 130px;
+		justify-content: flex-end;
+		box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		margin: 15px 0px 0px 0px;
+	}
+
+	.card-header {
+		font-size: 16pt;
+		line-height: 25pt;
+		margin-left: 30px;
+	}
+
+	.card-blurb {
+		font-size: 11pt;
+		line-height: 15pt;
+		margin: 0px 20px 23px 30px;
+	}
+
+	.theia-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.theia-img-file {
+		display: none;
+	}
+
+	.amtrak-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.amtrak-img-file {
+		display: none;
+	}
+
+	.magister-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.magister-img-file {
+		display: none;
+	}
+
+	.pennapps-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.pennapps-img-file {
+		display: none;
+	}
+
+	.dp-img {
+		display: none;
+		opacity: 0;
+	}
+
+	.dp-img-file {
+		display: none;
+	}
+
+	/* PROJECT PAGES */
+	.container {
+		flex-direction: column;
+	}
+
+	.top-project-container {
+		margin: 62% auto 55px auto;
+		width: 75%;
+	}
+
+	.mid-project-container {
+		margin: 55px auto 55px auto;
+		width: 75%;
+	}
+
+	.header-image {
+		opacity: 0;
+	}
+
+	.header-image-tablet {
+		opacity: 1;
+	}
+
+	.header-image-mobile {
+		opacity: 0;
+	}
+
+	.header-image-mobile-s {
+		opacity: 0;
+	}
+
+	.inset-image {
+		width: 104%;
+		margin-left: -8px;
+	}
+}
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
