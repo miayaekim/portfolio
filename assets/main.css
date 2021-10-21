@@ -187,7 +187,7 @@ a {
 	margin-top: -10%;
 }
 
-.dp-img {
+.p10-img {
 	display: flex;
 	position: absolute;
 	margin-left: 22.25%;
@@ -196,7 +196,7 @@ a {
 	opacity: 0;
 }
 
-.dp-img-file {
+.p10-img-file {
 	display: block;
 	align-self: flex-start;
 	width: 100%;
@@ -231,9 +231,9 @@ a {
 	font-size: 45pt;
 }
 
-.dp-project-title {
+/*.dp-project-title {
 	font-size: 35pt;
-}
+}*/
 
 .divider {
 	height: 1px;
@@ -320,7 +320,7 @@ html,body {
 
 	.about {
 		margin: 50px 0px 0px 60px;
-		width: 640px;
+		width: 700px;
 		opacity: 1;
 		display: block;
 	}
@@ -389,7 +389,7 @@ html,body {
 		margin-top: -10%;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: flex;
 		position: absolute;
 		margin-left: 22.25%;
@@ -398,7 +398,7 @@ html,body {
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: block;
 		align-self: flex-start;
 		width: 100%;
@@ -495,7 +495,7 @@ html,body {
 		margin-top: 5%;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: flex;
 		position: absolute;
 		margin-left: 22.25%;
@@ -504,7 +504,7 @@ html,body {
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: block;
 		align-self: flex-start;
 		width: 100%;
@@ -630,12 +630,12 @@ html,body {
 		display: none;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: none;
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: none;
 	}
 
@@ -783,12 +783,12 @@ html,body {
 		display: none;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: none;
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: none;
 	}
   
@@ -937,12 +937,12 @@ html,body {
 		display: none;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: none;
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: none;
 	}
 
@@ -1092,12 +1092,12 @@ html,body {
 		display: none;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: none;
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: none;
 	}
   
@@ -1242,12 +1242,12 @@ html,body {
 		display: none;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: none;
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: none;
 	}
   
@@ -1399,12 +1399,12 @@ html,body {
 		display: none;
 	}
 
-	.dp-img {
+	.p10-img {
 		display: none;
 		opacity: 0;
 	}
 
-	.dp-img-file {
+	.p10-img-file {
 		display: none;
 	}
   
