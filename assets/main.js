@@ -51,16 +51,16 @@ $(document).ready(function() {
 		$(".about").fadeTo(200, 1);
 	});
 
-	$("#dp").mouseenter(function() {
-		$("#dp").css("background-color", "#F0DD00");
-		$("body").css("background-color", "#F3E433");
-		$(".dp-img").fadeTo(250, 1);
+	$("#p10").mouseenter(function() {
+		$("#p10").css("background-color", "#CBBFBB");
+		$("body").css("background-color", "#D3CBC8");
+		$(".p10-img").fadeTo(250, 1);
 		$(".about").fadeTo(200, 0);
 	});
-	$("#dp").mouseleave(function() {
-		$("#dp").css("background-color", "transparent");
+	$("#p10").mouseleave(function() {
+		$("#p10").css("background-color", "transparent");
 		$("body").css("background-color", "white");
-		$(".dp-img").fadeTo(250, 0);
+		$(".p10-img").fadeTo(250, 0);
 		$(".about").fadeTo(200, 1);
 	});
 });
