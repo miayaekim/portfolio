@@ -818,20 +818,32 @@ h1 {
 }
 
 @media (min-width: 0px) and (max-width: 450px) {
+  body {
+    font-size: 14pt;
+    line-height: 24pt;
+  }
+
+  h1 {
+    font-size: 20pt;
+    margin-bottom: 30px;
+  }
+
   /* HOME PAGE */
 
   .nav {
     max-width: 100%;
+    height: 70px;
   }
 
   .left-nav-link {
     font-size: 12pt;
-    margin: 40px 0 0 25px;
+    margin: 25px 0 0 25px;
     width: 100px;
   }
 
   .nav-links {
     margin-right: 25px;
+    margin-top: 25px;
     gap: 35px;
     font-size: 12pt;
   }
@@ -876,6 +888,11 @@ h1 {
 
   .card {
     margin-bottom: 20px;
+  }
+
+  .card-header {
+    font-size: 16pt;
+    line-height: 24pt;
   }
 
   .card-desc {
@@ -952,7 +969,7 @@ h1 {
   }
 
   .project-header {
-    font-size: 30pt;
+    font-size: 28pt;
     margin-bottom: 40px;
   }
 
