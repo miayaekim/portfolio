@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/main.css">
+	<link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/279/honeybee_1f41d.png">
+	<title>PennInTouch</title>
+</head>
+<body>
+	<div class="container">
+		<div class="nav">
+			<div class="left-nav-link">
+				<a href="../index.html">🐝 &nbsp; Mia Kim</a>
+			</div>
+			<div class="nav-links">
+				<a href="../about.html">About</a>
+				<a href="../assets/imgs/Kim_Mia_Resume.pdf" target="_blank">Resume</a>
+			</div>
+		</div>
+		<div class="header-container">
+			<div class="pit-header-bg">
+				<div>
+					<img src="../assets/imgs/pit-header.png" class="pit-header-img" alt="Header mockup for PennInTouch">
+				</div>
+			</div>
+		</div>
+		<div class="text-container">
+			<div class="project-header">PennInTouch</div>
+			<div class="project-data-container">
+				<div class="project-data">
+					<b>Role:</b> UI/UX Designer </br>
+					<b>Date:</b> Spring 2022 </br>
+					<b>Skills:</b> Figma, user research, wireframing, prototyping
+				</div>
+				<div class="project-summary">
+					<b>Summary:</b> This redesign was a project for DSGN-240: UI/UX Design. Students were instructed to redesign the student course search/registration portal (PennInTouch) over the course of half of a semester.
+				</div>
+			</div>
+			<div class="line"></div>
+			<h1>Problem</h1>
+			<b>Identifying the Problem</b>
+			<p>I approached this problem by identifying issues with the existing PennInTouch website. These issues can be summarized in two categories:</p>
+			<ol>
+  				<li>Visually unappealing: PennInTouch’s UI is very inconsistent in terms of its use of colors, fonts, and sizing, which makes it difficult for users to locate important information quickly.</li>
+  				<li>Convoluted navigation: Users need to click through several screens in order to complete a single action.</li>
+			</ol>
+		</div>
+		<div class="inset-container">
+			<img src="../assets/imgs/pit-inset-1.png" class="project-inset" alt="Old PennInTouch site and section of the old site user flow">
+		</div>
+		<div class="text-container">
+			<b>Defining the User</b>
+			<p>With a basic overview of the issues in mind, I proceeded to define my user as a student who uses PennInTouch to register for courses, plan their schedule, ane keep track of their academic records.</p>
+			<div class="line"></div>
+			<h1>User Research</h1>
+			<p>Given these initial inklings about the possible problem and users, I wanted to more clearly define the problem I wanted to tackle with my redesign. To achieve this, I decided to conduct some user research with the goal of understanding why students have struggled to find information and complete tasks related to course registration on PennInTouch.</p>
+			<p>My research was split into two parts: a survey and three in-depth interviews.</p>
+			</br>
+			<b>Survey</b>
+			<p>With the survey, I aimed to gauge the overall sentiment towards PennInTouch and figure out how often each of its features are used. The survey received 46 total responses and resulted in two key findings:</p>
+			<ul>
+				<li>The overall sentiment regarding PennInTouch was negative. However, when asked about how usable various features of the site was, there was a more even spread of responses.</li>
+				<li>Many respondents supplement the use of PennInTouch with external tools (eg. about 76% of respondents used external tools such as Google Sheets).</li>
+			</ul>
+			<img src="../assets/imgs/pit-inset-2.png" class="project-inset" alt="Survey result pie charts">
+			<b>In-depth Interviews</b>
+			<p>The interviews served as a way for me to pinpoint specific features that are helpful or hurtful in PennInTouch. From these interviews, I observed that the overall sentiment in my interviews was that although PennInTouch functionally works, it is frustrating to use. Interviewees repeatedly cited aspects of the convoluted navigation, outdated UI, and lack of features in PennInTouch’s course search as sources of frustration. All interviewees supplemented their use of PennInTouch with external tools due to their ability to provide the features that PennInTouch lacks (eg. additional statistics on courses, autonomy of color-coding). The remaining positive feedback was primarily centered around the few instances of visualization that PennInTouch provides via the mock schedule and schedule preview features.</p>
+		</div>
+		<div class="inset-container">
+			<img src="../assets/imgs/pit-inset-3.png" class="project-inset" alt="In-depth interview synthesis">
+		</div>
+		<div class="text-container">
+			<b>Specifying the Problem</b>
+			<p>As a result of my research, I decided to narrow my focus to the course search feature, which seemed to be causing a lot of frustration. A lot of this frustration was due to the aforementioned lack of features, which made the process of browsing for courses confusing and time-consuming. Consequently, I defined the problem to be the following:</p>
+			<div class="pullout-quote" id="pit-quote">
+				<b>How might we make non-specific browsing feasible on the course search feature?</b>
+			</div>
+			<div class="line"></div>
+			<h1>Wireframes</h1>
+			<p>In approaching the wireframes, I decided to tackle the problem of non-specific browsing through with three main ideas in mind:</p>
+			<ol>
+  				<li>I want to increase browsability and simplify the navigation.</li>
+  				<li>I should focus on visually grouping information in a digestible manner.</li>
+  				<li>I strive to give the user more autonomy in how certain information is organized.</li>
+			</ol>
+			<b class="b-margin-top">Increasing Browsability</b>
+			<p>I increased browsability by making the hierarchy of information clear and consistent. Information is clearly grouped into sections: the navigation, the main “searching” section where users can peruse and search courses, and the course carts. Within each of these sections, hierarchy is established amongst the text through the increased font-size and boldness of the headers. Thus, all of the important information immediately stands out to the user.</p>
+			<img src="../assets/imgs/pit-inset-4.png" class="project-inset" alt="Wireframe for increasing browsability">
+			<b>Visually Grouping Information</b>
+			<p>Part of the main challenge of redesigning PiT was figuring out how to organize large volumes of information. A good example of this is the organization of the course search filters. I approached this not only by establishing a clear hierarchy and consistency of formatting information, but also by grouping by logic. For the course search filters, this meant grouping the filters that related to the qualities of the course on the left and the filters that related to the logistical details of the course on the right.</p>
+			<img src="../assets/imgs/pit-inset-5.png" class="project-inset" alt="Wireframe for visually grouping information">
+			<b>Providing the User with Autonomy</b>
+			<p>In order to allow the user to feel more in control of how they organize the courses that they find, I decided to add more customizable functionality to the course cart. This meant that the user would be able to control both the number of course carts that they maintain as well as the organization of the course cart itself.</p>
+			<img src="../assets/imgs/pit-inset-6.png" class="project-inset-consecutive" alt="Wireframe for providing the user with autonomy">
+			<img src="../assets/imgs/pit-inset-7.png" class="project-inset-consecutive" alt="Wireframe for providing the user with autonomy">
+			<div class="line"></div>
+			<h1>Prototype</h1>
+			<p>With the prototype, I aimed to develop a consistent visual language and refine the features outlined in the wireframes.</p>
+			<p>For the visual language, I decided to go with a modern yet friendly appearance, which is emphasized by the use of sharp corners and a simple sans-serif typeface. Furthermore, in order to establish coherence with the rest of Penn’s identity, the colors are drawn from Penn’s branding guide. All of this visual language is standardized in order to give the user a clear idea of what actions to take. For example, all of the action buttons are solid blue and all of the “cancel” buttons are outlined.</p>
+			<p>In terms of logical refinements, I cleaned up the features I had previously created. This included...</p>
+			<ul>
+				<li>Adding confirmation messages to provide the users feedback for their actions</li>
+				<li>Moving the open/closed status of a course to the left side of the course card so that it is more immediately visible</li>
+				<li>Simplifying the course cart customization options to avoid overwhelming the user</li>
+			</ul>
+			<a href="https://www.figma.com/proto/cDAO4eti1q1HQz8b534B9I/Mia-Kim?page-id=0%3A1&node-id=3%3A2&viewport=241%2C48%2C0.18&scaling=min-zoom&starting-point-node-id=3%3A2" class="prototype-button" target="_blank">View the Prototype &nbsp; &#8599;</a>
+		</div>
+		<div class="inset-container">
+			<img src="../assets/imgs/pit-inset-8.png" class="project-inset" alt="PennInTouch final mockups">
+		</div>
+		<div class="credit-align">
+			<div class="credit">Made with 🍯 by Mia</div>
+		</div>
+	</div>
+</body>
+</html>
